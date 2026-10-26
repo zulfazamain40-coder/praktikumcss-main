@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5dc;
+}
+#header {
+    background-color: #dfbb83;
+    border: 3px solid #ead6a9;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0 0 15px;
+    color: #30269b;
+    font-size: 25px;
+}
+
+#header blockquote {
+    margin: 0;
+    padding: 8px;
+    background-color: #ffcc00;
+    border: 1px solid #d9a900;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#soekarno {
+    color: #333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ===== NAVIGASI ===== */
+body > .container {
+    margin: 10px auto;
+    text-align: center;
+}
+
+body > .container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body > .container li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+body > .container a {
+    color: #30269b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ===== GAMBAR UTAMA ===== */
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 15px auto 20px;
+}
+
+.gambar img {
+    width: 175px;
+    height: 130px;
+    object-fit: cover;
+}
+
+/* ===== ISI ARTIKEL ===== */
+.isi {
+    margin: 15px 5px;
+    text-align: justify;
+}
+
+.isi p {
+    columns: blue;
+    margin-bottom: 12px;
+}
+
+.jawa {
+    font-weight: bold;
+}
+.huruf_awal{
+    color: #30269b;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    line-height: 0.2;
+   
+     
+}
+
+/* ===== PROFIL PERKUTUT ===== */
+#profil {
+    margin: 15px 5px;
+    text-align: justify;
+}
+
+#profil h3,
+#beternak h3 {
+    font-size: 16px;
+    margin: 12px 0 8px;
+}
+
+#profil ul {
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
+#profil li {
+    margin-bottom: 4px;
+}
+
+/* ===== CARA BETERNAK ===== */
+#beternak {
+    margin: 15px 5px;
+    text-align: justify;
+}
+
+#beternak ol {
+    padding-left: 25px;
+}
+
+#beternak li {
+    margin-bottom: 12px;
+}
+
+#beternak h4 {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+#beternak p {
+    margin: 5px 0;
+}
+
+/* ===== KOLEKSI FOTO ===== */
+.koleksi {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    margin: 25px auto 30px;
+    padding: 0 20px;
+}
+
+.koleksi img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid white;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #ccc;
+}
+
+/* ===== PROMO ===== */
+.promo {
+    margin: 25px 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.promo h2 {
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.promo h3 {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.promo del {
+    color: #b22222;
+}
+
+.promo strong {
+    color: #a52a2a;
+}
+
+#Wa {
+    color: #008000;
+    font-weight: bold;
+}
+
+.promo h4 {
+    font-size: 13px;
+    margin: 15px 0 8px;
+}
+
+/* ===== LINK E-COMMERCE ===== */
+.promo ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+
+
+.promo ol li a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 7px 7px;
+    border-radius: 6px;
+    font-size: 11px;
+}
